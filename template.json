@@ -1,0 +1,21 @@
+{
+    "package": {
+      "dependencies": {
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "@craco/craco": "^6.0.0",
+        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "autoprefixer": "^9.8.6",
+        "postcss": "^7.0.35",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+        "web-vitals": "^1.0.1"
+      },
+      "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+      }
+    }
+  }
